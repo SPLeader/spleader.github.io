@@ -8,7 +8,7 @@ format:
     page-layout: full
 ---
 
-::: panel-tabset
+:::: panel-tabset
 ## R/Python ML
 
 In this project for STAT 551 at Cal Poly, we produced a mock document for the EPA that used machine learning to investigate air pollution and car dependency in the United States. We produced this analysis in two programming languages: R and Python. This project helped bolster my skills in both R and Python, allowing me to see the strengths and weaknesses of both languages in the context of machine learning, data visualization, and data summary.
@@ -19,6 +19,7 @@ In this project for STAT 551 at Cal Poly, we produced a mock document for the EP
 ```{=html}
 <iframe width="100%" height="700" src="project_files/FinalReport_py.html" title="Python File"></iframe>
 ```
+
 ## R
 
 ```{=html}
@@ -35,10 +36,10 @@ For a comprehensive summary of the work we completed, please refer to the formal
 ```{=html}
 <iframe width="100%" height="700" src="project_files/GEN_CPDS23_Final_Report.pdf" title="GEN Final Report"></iframe>
 ```
+
 ## Oh Hell Project
 
 ```{=html}
 <iframe id="example1" src="https://tf8s7t-sean0leader.shinyapps.io/oh_hell_statistics" style="border: none; width: 100%; height: 720px" frameborder="0"></iframe>
-
 ```
-:::
+::::
