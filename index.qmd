@@ -213,9 +213,9 @@ toc: false
     <div class="sidebar-name">Sean Leader</div>
     
     <div class="social-links">
-      <a href="[https://mail.google.com/mail/?view=cm&to=spleader13@gmail.com](https://mail.google.com/mail/?view=cm&to=spleader13@gmail.com)" class="social-btn"><i class="bi bi-envelope-fill"></i></a>
-      <a href="[https://github.com/SPLeader](https://github.com/SPLeader)" class="social-btn"><i class="bi bi-github"></i></a>
-      <a href="[https://www.linkedin.com/in/sean-leader](https://www.linkedin.com/in/sean-leader)" class="social-btn"><i class="bi bi-linkedin"></i></a>
+      <a href="https://mail.google.com/mail/?view=cm&to=spleader13@gmail.com" class="social-btn"><i class="bi bi-envelope-fill"></i></a>
+      <a href="https://github.com/SPLeader" class="social-btn"><i class="bi bi-github"></i></a>
+      <a href="https://www.linkedin.com/in/sean-leader" class="social-btn"><i class="bi bi-linkedin"></i></a>
     </div>
 
     <div class="sidebar-section-title">Education</div>
@@ -321,7 +321,7 @@ toc: false
       <span class="job-title">Data Scientist</span>
       <span class="job-date">Jan 2022 - Jan 2023</span>
     </div>
-    <span class="job-company"><a href="https://www.homeoptions.com">HomeOptions Inc.</a></span>
+    <span class="job-company">HomeOptions Inc.</span>
 
     <div class="experience-item">
       <span class="job-title">Frost Researcher</span>
