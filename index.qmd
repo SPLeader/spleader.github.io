@@ -1,91 +1,353 @@
 ---
-title: "Sean Leader"
-about:
-  template: jolla
-  image: SeanCropped.jpg
-  links:
-    - icon: envelope
-      text: Contact
-      href: https://mail.google.com/mail/?view=cm&to=spleader13@gmail.com
-    - icon: github
-      text: Github
-      href: https://github.com/SPLeader
-    - icon: linkedin
-      text: Linkedin
-      href: https://www.linkedin.com/in/sean-leader
+pagetitle: "Sean Leader"
+page-layout: custom
+section-divs: false
+toc: false
 ---
 
-I am a PhD student at UC Irvine studying Statistics. I love using my domain knowledge and computational skills to better understand the world around me, in both a personal and professional context. Thank you for stopping by, please feel free to take a look around my website!
+```{=html}
+<style>
+  /* GLOBAL RESET & TYPOGRAPHY */
+  body {
+    background-color: #f3f4f6;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    line-height: 1.6;
+  }
 
-## Education
+  /* MAIN LAYOUT CONTAINER */
+  .resume-grid {
+    display: grid;
+    grid-template-columns: 370px 1fr; /* Fixed Sidebar | Flexible Main Content */
+    max-width: 1600px; /* Limits width on ultra-wide monitors */
+    margin: 0 auto;
+    min-height: 100vh;
+    background: white;
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+  }
 
-University of California, Irvine \| PhD in Statistics \| Sep 2024 - present
+  /* --- LEFT SIDEBAR STYLES --- */
+  .sidebar {
+    background-color: #1a252f; /* Dark Navy */
+    color: #ecf0f1;
+    padding: 60px 20px;
+    display: block;
+    flex-direction: column;
+  }
 
-California Polytechnic State University, San Luis Obispo \| M.S. in Statistics \| Sep 2023 - Jun 2024
+  .profile-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid rgba(255,255,255,0.1);
+    margin: 0 auto 30px auto;
+    display: block;
+  }
 
-California Polytechnic State University, San Luis Obispo \| B.S. in Statistics \| Sep 2019 - Jun 2024
+  .sidebar-name {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0px;
+    color: #ffffff;
+  }
 
-## Experience
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 0px;
+  }
 
-Graduate Student Researcher \| UC Irvine \| January 2026 - present
+  .social-btn {
+    color: white;
+    font-size: 1.4rem;
+    transition: transform 0.2s, color 0.2s;
+  }
 
-Teaching Assistant \| UC Irvine \| September 2024 - December 2025
+  .social-btn:hover {
+    color: #3498db;
+    transform: translateY(-3px);
+  }
 
-Statistics Tutor \| Self-Employed \| Aug 2022 - present
+  .sidebar-section-title {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #95a5a6;
+    border-bottom: 1px solid #34495e;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
 
-Biostatistics Researcher ([SIBS](https://www.nhlbi.nih.gov/grants-and-training/summer-institute-biostatistics)) \| UC Irvine \| Jul 2023 - Aug 2023
+  .sidebar-item {
+    margin-bottom: 0px;
+  }
 
-Data Scientist \| [Global Emancipation Network](https://www.globalemancipation.ngo) \| Jan 2023 - Jun 2023
+  .sidebar-item h3 {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #fff;
+    font-weight: 600;
+  }
 
-Textbook Contributor and Editor \| [Pearson](https://www.pearson.com) \| Jun 2023 - Aug 2023
+  .sidebar-item p {
+    margin: 2px 0 0 0;
+    font-size: 0.95rem;
+    color: #bdc3c7;
+    font-style: italic;
+  }
 
-Workshop Leader \| Cal Poly \| Jan 2023 - Jun 2023
+  .sidebar-item .date {
+    display: block;
+    font-size: 0.85rem;
+    color: #7f8c8d;
+    margin-top: 4px;
+  }
 
-Data Scientist \| [HomeOptions Inc.](https://www.homeoptions.com) \| Jan 2022 - Jan 2023
+  /* --- RIGHT MAIN CONTENT STYLES --- */
+  .main-content {
+    padding: 60px 80px;
+  }
 
-[Frost Researcher](https://cosam.calpoly.edu/prospective-students/frost-fund) \| Cal Poly \| Jan 2021 - Aug 2021
+  .main-section-title {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    border-bottom: 3px solid #f0f2f5;
+    padding-bottom: 15px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-weight: 700;
+  }
 
-```{r, include = FALSE}
-#| echo: FALSE
-#| message: FALSE
+  .about-text {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 50px;
+    max-width: 900px;
+  }
 
-library(tidyverse)
-library(kableExtra)
+  /* Experience Grid */
+  .experience-item {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    margin-bottom: 8px;
+    align-items: baseline;
+  }
 
-table <- data.frame(Skill_Cat = c("Data Collection", "Data Manipulation", "ML Modeling",
-                              "Data Visualization", "Statistical Communication",
-                              "Statistical Methodologies"),
-                    Ex1 = c("Webscraping", "tidyverse", "scikit-learn",
-                                    "ggplot", "Consulting", "Hypothesis Testing"),
-                    Ex2 = c("API (REST & GraphQL)", "pandas", "tidymodels", "matplotlib", 
-                            "Tutoring", "Mathematical Theory"),
-                    Ex3 = c("Survey Design", "SQL", "Amazon SageMaker", "seaborn", "Research Presentations",
-                            "Probability"))
+  .job-title {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #2c3e50;
+  }
 
-table |> 
-  rename("Skill" = Skill_Cat,
-         "Example 1" = Ex1,
-         "Example 2" = Ex2,
-         "Example 3" = Ex3) |> 
-  kbl() |> 
-  kable_paper(full_width = FALSE) |> 
-  column_spec(1, bold = T, border_right = T) |> 
-  row_spec(0, bold = T, background = "grey", color = "white")
+  .job-date {
+    color: #7f8c8d;
+    font-size: 0.95rem;
+    font-weight: 500;
+  }
+
+  .job-company {
+    display: block;
+    color: #666;
+    margin-bottom: 10px; /* Spacing between jobs */
+  }
+
+  .job-company a {
+    color: #666;
+    text-decoration: none;
+    border-bottom: 1px dotted #999;
+  }
+
+  /* Publications */
+  .pub-item {
+    margin-bottom: 20px;
+    padding-left: 15px;
+    border-left: 3px solid #3498db;
+  }
+
+  .pub-citation {
+    font-size: 1rem;
+    color: #444;
+  }
   
+  .pub-link {
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 0.9rem;
+    color: #3498db;
+    text-decoration: none;
+  }
+
+  .pub-link:hover {
+    text-decoration: underline;
+  }
+
+  /* RESPONSIVE */
+  @media (max-width: 900px) {
+    .resume-grid {
+      grid-template-columns: 1fr;
+    }
+    .sidebar {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .sidebar-section-title {
+      text-align: center;
+    }
+    .main-content {
+      padding: 40px 20px;
+    }
+  }
+</style>
+
+<link rel="stylesheet" href="[https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css](https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css)">
+
+<div class="resume-grid">
+
+  <aside class="sidebar">
+    <img src="SeanCropped.jpg" alt="Sean Leader" class="profile-img">
+    <div class="sidebar-name">Sean Leader</div>
+    
+    <div class="social-links">
+      <a href="[https://mail.google.com/mail/?view=cm&to=spleader13@gmail.com](https://mail.google.com/mail/?view=cm&to=spleader13@gmail.com)" class="social-btn"><i class="bi bi-envelope-fill"></i></a>
+      <a href="[https://github.com/SPLeader](https://github.com/SPLeader)" class="social-btn"><i class="bi bi-github"></i></a>
+      <a href="[https://www.linkedin.com/in/sean-leader](https://www.linkedin.com/in/sean-leader)" class="social-btn"><i class="bi bi-linkedin"></i></a>
+    </div>
+
+    <div class="sidebar-section-title">Education</div>
+
+    <div class="sidebar-item">
+      <h3>University of California, Irvine</h3>
+      <p>PhD in Statistics</p>
+      <span class="date">Sep 2024 - present</span>
+    </div>
+
+    <div class="sidebar-item">
+      <h3>California Polytechnic State University</h3>
+      <p>M.S. in Statistics</p>
+      <span class="date">Sep 2023 - Jun 2024</span>
+    </div>
+
+    <div class="sidebar-item">
+      <h3>California Polytechnic State University</h3>
+      <p>B.S. in Statistics</p>
+      <span class="date">Sep 2019 - Jun 2024</span>
+    </div>
+
+    <div class="sidebar-section-title">Selected Awards</div>
+
+    <div class="sidebar-item">
+      <h3>Honorable Mention - NSF GRFP</h3>
+      <p>National Science Foundation</p>
+      <span class="date">2025</span>
+    </div>
+
+    <div class="sidebar-item">
+      <h3>Outstanding Scholarship Award</h3>
+      <p>Cal Poly Statistics Department</p>
+      <span class="date">2023</span>
+    </div>
+
+    <div class="sidebar-item">
+      <h3>Community Leadership</h3>
+      <p>Cal Poly Statistics Department</p>
+      <span class="date">2023</span>
+    </div>
+
+    <div class="sidebar-item">
+      <h3>Community Leadership</h3>
+      <p>Cal Poly College of Science & Math</p>
+      <span class="date">2023</span>
+    </div>
+
+  </aside>
+
+  <main class="main-content">
+  
+    <h2 class="main-section-title">About Me</h2>
+    <p class="about-text">
+      I am a PhD student at UC Irvine studying Statistics. I love using my domain knowledge and computational skills to better understand the world around me, in both a personal and professional context. I'm currently working to formalize new statistical methods that combine existing efficiency frameworks with applications to biomarker discovery for Alzheimer's Disease. 
+    </p>
+
+    <h2 class="main-section-title">Experience</h2>
+
+    <div class="experience-item">
+      <span class="job-title">Graduate Student Researcher</span>
+      <span class="job-date">Jan 2026 - present</span>
+    </div>
+    <span class="job-company">UC Irvine</span>
+
+    <div class="experience-item">
+      <span class="job-title">Teaching Assistant</span>
+      <span class="job-date">Sep 2024 - Dec 2025</span>
+    </div>
+    <span class="job-company">UC Irvine</span>
+
+    <div class="experience-item">
+      <span class="job-title">Statistics Tutor</span>
+      <span class="job-date">Aug 2022 - present</span>
+    </div>
+    <span class="job-company">Self-Employed</span>
+
+    <div class="experience-item">
+      <span class="job-title">Biostatistics Researcher</span>
+      <span class="job-date">Jul 2023 - Aug 2023</span>
+    </div>
+    <span class="job-company"><a href="https://www.nhlbi.nih.gov/grants-and-training/summer-institute-biostatistics">UC Irvine (SIBS)</a></span>
+
+    <div class="experience-item">
+      <span class="job-title">Data Scientist</span>
+      <span class="job-date">Jan 2023 - Jun 2023</span>
+    </div>
+    <span class="job-company"><a href="https://www.globalemancipation.ngo">Global Emancipation Network</a></span>
+
+    <div class="experience-item">
+      <span class="job-title">Textbook Contributor and Editor</span>
+      <span class="job-date">Jun 2023 - Aug 2023</span>
+    </div>
+    <span class="job-company"><a href="https://www.pearson.com">Pearson</a></span>
+
+    <div class="experience-item">
+      <span class="job-title">Workshop Leader</span>
+      <span class="job-date">Jan 2023 - Jun 2023</span>
+    </div>
+    <span class="job-company">Cal Poly</span>
+
+    <div class="experience-item">
+      <span class="job-title">Data Scientist</span>
+      <span class="job-date">Jan 2022 - Jan 2023</span>
+    </div>
+    <span class="job-company"><a href="https://www.homeoptions.com">HomeOptions Inc.</a></span>
+
+    <div class="experience-item">
+      <span class="job-title">Frost Researcher</span>
+      <span class="job-date">Jan 2021 - Aug 2021</span>
+    </div>
+    <span class="job-company"><a href="https://cosam.calpoly.edu/prospective-students/frost-fund">Cal Poly</a></span>
+
+    <br>
+
+    <h2 class="main-section-title">Publications</h2>
+
+    <div class="pub-item">
+      <div class="pub-citation">
+        Chance, B., Tintle, N., Reynolds, S., Patel, A., Chan, K., & <span style="text-decoration: underline;">Leader, S.</span> (2022). <strong>Student performance in curricula centered on simulation-based inference.</strong> <em>Statistics Education Research Journal, 21</em>(3).
+      </div>
+      <a href="https://doi.org/10.52041/serj.v21i3.6" class="pub-link" target="_blank"><i class="bi bi-link-45deg"></i> https://doi.org/10.52041/serj.v21i3.6</a>
+    </div>
+
+    <div class="pub-item">
+      <div class="pub-citation">
+        Lu, T. V., Campos, P., <span style="text-decoration: underline;">Leader, S.</span>, Lee, X., Xu, H., Doran, E., Grill, J. D., & Lott, I. T. (2024). <strong>Comparing research attitudes in Down syndrome and non-Down syndrome research decision-makers.</strong> <em>Alzheimer’s & Dementia: Translational Research & Clinical Interventions, 10</em>(3).
+      </div>
+      <a href="https://doi.org/10.1002/trc2.12478" class="pub-link" target="_blank"><i class="bi bi-link-45deg"></i> https://doi.org/10.1002/trc2.12478</a>
+    </div>
+
+  </main>
+</div>
 ```
 
-## Publications
-
-Chance, B., Tintle, N., Reynolds, S., Patel, A., Chan, K., & [Leader, S.]{.underline} (2022). Student performance in curricula centered on simulation-based inference. *Statistics Education Research Journal, 21*(3). <https://doi.org/10.52041/serj.v21i3.6>
-
-Lu, T. V., Campos, P., [Leader, S.]{.underline}, Lee, X., Xu, H., Doran, E., Grill, J. D., & Lott, I. T. (2024). Comparing research attitudes in Down syndrome and non-Down syndrome research decision-makers. *Alzheimer’s & Dementia: Translational Research & Clinical Interventions*, *10*(3). <https://doi.org/10.1002/trc2.12478>
-
-## Selected Awards
-
-Honorable Mention - NSF GRFP \| National Science Foundation \| 2025
-
-Outstanding Scholarship Award \| Cal Poly Statistics Department \| 2023
-
-Community Leadership \| Cal Poly Statistics Department \| 2023
-
-Community Leadership \| Cal Poly College of Science and Mathematics \| 2023

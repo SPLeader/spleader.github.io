@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Sean Leader",
     "section": "",
-    "text": "I am a PhD student at UC Irvine studying Statistics. I love using my domain knowledge and computational skills to better understand the world around me, in both a personal and professional context. Thank you for stopping by, please feel free to take a look around my website!"
+    "text": "About Me\n    \n      I am a PhD student at UC Irvine studying Statistics. I love using my domain knowledge and computational skills to better understand the world around me, in both a personal and professional context. I'm currently working to formalize new statistical methods that combine existing efficiency frameworks with applications to biomarker discovery for Alzheimer's Disease. \n    \n\n    Experience\n\n    \n      Graduate Student Researcher\n      Jan 2026 - present\n    \n    UC Irvine\n\n    \n      Teaching Assistant\n      Sep 2024 - Dec 2025\n    \n    UC Irvine\n\n    \n      Statistics Tutor\n      Aug 2022 - present\n    \n    Self-Employed\n\n    \n      Biostatistics Researcher\n      Jul 2023 - Aug 2023\n    \n    UC Irvine (SIBS)\n\n    \n      Data Scientist\n      Jan 2023 - Jun 2023\n    \n    Global Emancipation Network\n\n    \n      Textbook Contributor and Editor\n      Jun 2023 - Aug 2023\n    \n    Pearson\n\n    \n      Workshop Leader\n      Jan 2023 - Jun 2023\n    \n    Cal Poly\n\n    \n      Data Scientist\n      Jan 2022 - Jan 2023\n    \n    HomeOptions Inc.\n\n    \n      Frost Researcher\n      Jan 2021 - Aug 2021\n    \n    Cal Poly\n\n    \n\n    Publications\n\n    \n      \n        Chance, B., Tintle, N., Reynolds, S., Patel, A., Chan, K., & Leader, S. (2022). Student performance in curricula centered on simulation-based inference. Statistics Education Research Journal, 21(3).\n      \n       https://doi.org/10.52041/serj.v21i3.6\n    \n\n    \n      \n        Lu, T. V., Campos, P., Leader, S., Lee, X., Xu, H., Doran, E., Grill, J. D., & Lott, I. T. (2024). Comparing research attitudes in Down syndrome and non-Down syndrome research decision-makers. Alzheimer’s & Dementia: Translational Research & Clinical Interventions, 10(3).\n      \n       https://doi.org/10.1002/trc2.12478"
   },
   {
     "objectID": "about.html",
@@ -52,15 +52,15 @@
     "objectID": "index.html#education",
     "href": "index.html#education",
     "title": "Sean Leader",
-    "section": "Education",
-    "text": "Education\nUniversity of California, Irvine | PhD in Statistics | Sep 2024 - present\nCalifornia Polytechnic State University, San Luis Obispo | M.S. in Statistics | Sep 2023 - Jun 2024\nCalifornia Polytechnic State University, San Luis Obispo | B.S. in Statistics | Sep 2019 - Jun 2024"
+    "section": " Education",
+    "text": "Education\n\n\nUniversity of California, Irvine | PhD in Statistics\n\n\nSep 2024 - present\n\n\nCalifornia Polytechnic State University, San Luis Obispo | M.S. in Statistics\n\n\nSep 2023 - Jun 2024\n\n\nCalifornia Polytechnic State University, San Luis Obispo | B.S. in Statistics\n\n\nSep 2019 - Jun 2024"
   },
   {
     "objectID": "index.html#experience",
     "href": "index.html#experience",
     "title": "Sean Leader",
-    "section": "Experience",
-    "text": "Experience\nGraduate Student Researcher | UC Irvine | January 2026 - present\nTeaching Assistant | UC Irvine | September 2024 - December 2025\nStatistics Tutor | Self-Employed | Aug 2022 - present\nBiostatistics Researcher (SIBS) | UC Irvine | Jul 2023 - Aug 2023\nData Scientist | Global Emancipation Network | Jan 2023 - Jun 2023\nTextbook Contributor and Editor | Pearson | Jun 2023 - Aug 2023\nWorkshop Leader | Cal Poly | Jan 2023 - Jun 2023\nData Scientist | HomeOptions Inc. | Jan 2022 - Jan 2023\nFrost Researcher | Cal Poly | Jan 2021 - Aug 2021"
+    "section": " Experience",
+    "text": "Experience\n\n\nGraduate Student Researcher | UC Irvine\n\n\nJan 2026 - present\n\n\nTeaching Assistant | UC Irvine\n\n\nSep 2024 - Dec 2025\n\n\nStatistics Tutor | Self-Employed\n\n\nAug 2022 - present\n\n\nBiostatistics Researcher (SIBS) | UC Irvine\n\n\nJul 2023 - Aug 2023\n\n\nData Scientist | Global Emancipation Network\n\n\nJan 2023 - Jun 2023\n\n\nTextbook Contributor and Editor | Pearson\n\n\nJun 2023 - Aug 2023\n\n\nWorkshop Leader | Cal Poly\n\n\nJan 2023 - Jun 2023\n\n\nData Scientist | HomeOptions Inc.\n\n\nJan 2022 - Jan 2023\n\n\nFrost Researcher | Cal Poly\n\n\nJan 2021 - Aug 2021"
   },
   {
     "objectID": "index.html#publications",
@@ -101,7 +101,56 @@
     "objectID": "index.html#skills",
     "href": "index.html#skills",
     "title": "Sean Leader",
-    "section": "Skills",
-    "text": "Skills\n\n\n\n\n\nSkill\nExample 1\nExample 2\nExample 3\n\n\n\n\nData Collection\nWebscraping\nAPI (REST & GraphQL)\nSurvey Design\n\n\nData Manipulation\ntidyverse\npandas\nSQL\n\n\nML Modeling\nscikit-learn\ntidymodels\nAmazon SageMaker\n\n\nData Visualization\nggplot\nmatplotlib\nseaborn\n\n\nStatistical Communication\nConsulting\nTutoring\nResearch Presentations\n\n\nStatistical Methodologies\nHypothesis Testing\nMathematical Theory\nProbability"
+    "section": " Skills",
+    "text": "Skills\n#| echo: FALSE #| message: FALSE #| warning: FALSE\nlibrary(tidyverse) library(kableExtra)\ntable &lt;- data.frame(Skill_Cat = c(“Data Collection”, “Data Manipulation”, “ML Modeling”, “Data Visualization”, “Statistical Communication”, “Statistical Methodologies”), Ex1 = c(“Webscraping”, “tidyverse”, “scikit-learn”, “ggplot”, “Consulting”, “Hypothesis Testing”), Ex2 = c(“API (REST & GraphQL)”, “pandas”, “tidymodels”, “matplotlib”, “Tutoring”, “Mathematical Theory”), Ex3 = c(“Survey Design”, “SQL”, “Amazon SageMaker”, “seaborn”, “Research Presentations”, “Probability”))\ntable |&gt; rename(“Skill” = Skill_Cat, “Example 1” = Ex1, “Example 2” = Ex2, “Example 3” = Ex3) |&gt; kbl() |&gt; kable_styling(bootstrap_options = c(“hover”, “condensed”), full_width = F, position = “left”) |&gt; column_spec(1, bold = T, border_right = T) |&gt; row_spec(0, bold = T, background = “#2c3e50”, color = “white”)"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Sean Leader",
+    "section": "",
+    "text": "I am a PhD student at UC Irvine studying Statistics. I love using my domain knowledge and computational skills to better understand the world around me, in both a personal and professional context. Thank you for stopping by, please feel free to take a look around my website!\n\n\n\n\nUniversity of California, Irvine PhD in Statistics | Sep 2024 - present\nCal Poly, San Luis Obispo M.S. in Statistics | Sep 2023 - Jun 2024\nCal Poly, San Luis Obispo B.S. in Statistics | Sep 2019 - Jun 2024\n\n Awards Honorable Mention - NSF GRFP National Science Foundation | 2025\nOutstanding Scholarship Award Cal Poly Statistics Department | 2023\nCommunity Leadership Cal Poly Statistics Department | 2023\nCommunity Leadership Cal Poly College of Science and Math | 2023\n\n\n Experience Graduate Student Researcher | UC Irvine January 2026 - present\nTeaching Assistant | UC Irvine\nSeptember 2024 - December 2025\nBiostatistics Researcher (SIBS) | UC Irvine\nJul 2023 - Aug 2023\nTextbook Contributor and Editor | Pearson Jun 2023 - Aug 2023\nData Scientist | Global Emancipation Network\nJan 2023 - Jun 2023\nWorkshop Leader | Cal Poly\nJan 2023 - Jun 2023\nStatistics Tutor | Self-Employed Aug 2022 - present\nData Scientist | HomeOptions Inc. Jan 2022 - Jan 2023\nFrost Researcher | Cal Poly\nJan 2021 - Aug 2021\n Publications Chance, B., Tintle, N., Reynolds, S., Patel, A., Chan, K., & Leader, S. (2022). Student performance in curricula centered on simulation-based inference. Statistics Education Research Journal, 21(3).  https://doi.org/10.52041/serj.v21i3.6\nLu, T. V., Campos, P., Leader, S., Lee, X., Xu, H., Doran, E., Grill, J. D., & Lott, I. T. (2024). Comparing research attitudes in Down syndrome and non-Down syndrome research decision-makers. Alzheimer’s & Dementia: Translational Research & Clinical Interventions, 10(3).  https://doi.org/10.1002/trc2.12478\n\n\n::: ::::"
+  },
+  {
+    "objectID": "index_old.html",
+    "href": "index_old.html",
+    "title": "Sean Leader",
+    "section": "",
+    "text": "I am a PhD student at UC Irvine studying Statistics. I love using my domain knowledge and computational skills to better understand the world around me, in both a personal and professional context. Thank you for stopping by, please feel free to take a look around my website!"
+  },
+  {
+    "objectID": "index_old.html#education",
+    "href": "index_old.html#education",
+    "title": "Sean Leader",
+    "section": "Education",
+    "text": "Education\nUniversity of California, Irvine | PhD in Statistics | Sep 2024 - present\nCalifornia Polytechnic State University, San Luis Obispo | M.S. in Statistics | Sep 2023 - Jun 2024\nCalifornia Polytechnic State University, San Luis Obispo | B.S. in Statistics | Sep 2019 - Jun 2024"
+  },
+  {
+    "objectID": "index_old.html#experience",
+    "href": "index_old.html#experience",
+    "title": "Sean Leader",
+    "section": "Experience",
+    "text": "Experience\nGraduate Student Researcher | UC Irvine | January 2026 - present\nTeaching Assistant | UC Irvine | September 2024 - December 2025\nStatistics Tutor | Self-Employed | Aug 2022 - present\nBiostatistics Researcher (SIBS) | UC Irvine | Jul 2023 - Aug 2023\nData Scientist | Global Emancipation Network | Jan 2023 - Jun 2023\nTextbook Contributor and Editor | Pearson | Jun 2023 - Aug 2023\nWorkshop Leader | Cal Poly | Jan 2023 - Jun 2023\nData Scientist | HomeOptions Inc. | Jan 2022 - Jan 2023\nFrost Researcher | Cal Poly | Jan 2021 - Aug 2021"
+  },
+  {
+    "objectID": "index_old.html#publications",
+    "href": "index_old.html#publications",
+    "title": "Sean Leader",
+    "section": "Publications",
+    "text": "Publications\nChance, B., Tintle, N., Reynolds, S., Patel, A., Chan, K., & Leader, S. (2022). Student performance in curricula centered on simulation-based inference. Statistics Education Research Journal, 21(3). https://doi.org/10.52041/serj.v21i3.6\nLu, T. V., Campos, P., Leader, S., Lee, X., Xu, H., Doran, E., Grill, J. D., & Lott, I. T. (2024). Comparing research attitudes in Down syndrome and non-Down syndrome research decision-makers. Alzheimer’s & Dementia: Translational Research & Clinical Interventions, 10(3). https://doi.org/10.1002/trc2.12478"
+  },
+  {
+    "objectID": "index_old.html#selected-awards",
+    "href": "index_old.html#selected-awards",
+    "title": "Sean Leader",
+    "section": "Selected Awards",
+    "text": "Selected Awards\nHonorable Mention - NSF GRFP | National Science Foundation | 2025\nOutstanding Scholarship Award | Cal Poly Statistics Department | 2023\nCommunity Leadership | Cal Poly Statistics Department | 2023\nCommunity Leadership | Cal Poly College of Science and Mathematics | 2023"
+  },
+  {
+    "objectID": "index.html#sean-leader",
+    "href": "index.html#sean-leader",
+    "title": "Sean Leader",
+    "section": "",
+    "text": "Contact  Github  Linkedin\n\n\n\nUC Irvine PhD in Statistics [cite_start][cite: 4, 5] Sep 2024 - present\n\nCal Poly, SLO M.S. in Statistics [cite_start][cite: 6] Sep 2023 - Jun 2024\n\nCal Poly, SLO B.S. in Statistics [cite_start][cite: 7] Sep 2019 - Jun 2024\n\n\n\n\nHonorable Mention - NSF GRFP National Science Foundation | 2025\nOutstanding Scholarship Award [cite_start][cite: 21] Cal Poly Statistics Dept | 2023\nCommunity Leadership Cal Poly Statistics Dept | 2023\nCommunity Leadership [cite_start][cite: 22] Cal Poly College of Science & Math | 2023\n:::\n\n\n\n\n[cite_start]I am a PhD student at UC Irvine studying Statistics[cite: 1]. [cite_start]I love using my domain knowledge and computational skills to better understand the world around me, in both a personal and professional context[cite: 2]. [cite_start]Thank you for stopping by, please feel free to take a look around my website[cite: 3]!\n\n\n\n\n\n\nGraduate Student Researcher | UC Irvine\n\n\nJan 2026 - present\n\n\n[cite_start]Teaching Assistant | [cite: 8] UC Irvine\n\n\n[cite_start][cite: 8] Sep 2024 - Dec 2025\n\n\n[cite_start]Biostatistics Researcher (SIBS) | [cite: 9] UC Irvine\n\n\n[cite_start][cite: 9] Jul 2023 - Aug 2023\n\n\nTextbook Contributor and Editor | Pearson\n\n\nJun 2023 - Aug 2023\n\n\nData Scientist | [cite_start][Global Emancipation Network](https://www.globalemancipation.ngo) [cite: 10]\n\n\n[cite_start][cite: 10] Jan 2023 - Jun 2023\n\n\n[cite_start]Workshop Leader | [cite: 11] Cal Poly\n\n\n[cite_start][cite: 11] Jan 2023 - Jun 2023\n\n\nStatistics Tutor | Self-Employed\n\n\nAug 2022 - present\n\n\nData Scientist | HomeOptions Inc.\n\n\nJan 2022 - Jan 2023\n\n\n[cite_start]Frost Researcher | [cite: 12] Cal Poly\n\n\n[cite_start][cite: 12] Jan 2021 - Aug 2021\n\n\n\n Publications Chance, B., Tintle, N., Reynolds, S., Patel, A., Chan, K., & Leader, S. (2022). Student performance in curricula centered on simulation-based inference. Statistics Education Research Journal, 21(3).  https://doi.org/10.52041/serj.v21i3.6\nLu, T. V., Campos, P., Leader, S., Lee, X., Xu, H., Doran, E., Grill, J. D., & Lott, I. T. (2024). Comparing research attitudes in Down syndrome and non-Down syndrome research decision-makers. Alzheimer’s & Dementia: Translational Research & Clinical Interventions, 10(3).  https://doi.org/10.1002/trc2.12478"
   }
 ]
