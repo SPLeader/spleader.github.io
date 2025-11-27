@@ -165,5 +165,33 @@ The data analysis specification tasked us to answer four questions of varying sc
 
 These exams allowed me to assess my understanding of the first year of statistical content and employ the methodologies I learned about in a real experimental context to gain real insight. They marked an important inflection point in my time as a PhD student, as I begin to transition away from the traditional student role into a researcher exploring new ideas. The first year went by in a blink, just four more to go!
 
+## Photos
+
+::: {layout="[[50,50], [100]]"}
+![Vervet monkey](photos/monkey.jpg)
+
+![Tarangire National Park](photos/river.jpg)
+
+![](photos/skulls.jpg)
+:::
+
+:::: {layout="[ 40, 60 ]"}
+
+::: {#first-column}
+
+
+
+
+-   test
+-   test2
+-   test3
+:::
+
+::: {#second-column}
+![](photos/elephant.jpg)
+:::
+
+::::
+
 
 :::

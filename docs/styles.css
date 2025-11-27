@@ -1,1 +1,73 @@
-/* css styles */
+/* Custom CSS for Horizontal Scrolling Photo Gallery */
+
+.horizontal-scroll {
+  display: flex;
+  flex-wrap: nowrap;
+  white-space: nowrap; 
+  overflow-x: auto;
+  overflow-y: hidden; 
+  padding: 10px 0;
+  height: 250px; 
+  /*scroll-behavior: smooth;   */
+  
+  /* CRUCIAL FIX 1: Scrollbar Hiding (IE/Edge/Firefox) */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+/* CRUCIAL FIX 2: Scrollbar Hiding (Chrome, Safari, WebKit browsers) */
+.horizontal-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* CRUCIAL FIX: Styles the anchor tag (the link) to match the image dimensions 
+   and handles the spacing between photos.
+*/
+.lightbox-trigger {
+  display: inline-block; /* Allows width/height to be set and flow horizontally */
+  height: 200px; /* Forces the link to match the image height */
+  margin-right: 10px; /* Adds space between photos */
+  text-decoration: none; /* Optional: ensures no blue link underline */
+}
+
+/* Styles the image inside the link */
+.horizontal-scroll img {
+  height: 200px; 
+  width: auto; 
+  margin-right: 0; /* Removed margin here, as it's now on the parent link */
+  display: block; /* Makes the image take up all space in the link */
+  cursor: pointer;
+  transition: transform 0.2s; 
+}
+
+.horizontal-scroll img:hover {
+  transform: scale(1.05); 
+}
+
+
+/* --- CUSTOM LIGHTBOX STYLES --- */
+
+/* The Overlay: Full screen, grey background, hidden by default */
+#lightbox-overlay {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9); 
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* The Image Container within the overlay */
+#lightbox-modal {
+    max-width: 90%;
+    max-height: 90vh;
+    display: block;
+    margin: auto;
+    border: 3px solid white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    cursor: default; 
+}

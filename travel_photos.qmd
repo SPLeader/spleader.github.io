@@ -1,0 +1,94 @@
+---
+title: "Travel Photo Galleries"
+listing: false
+format:
+  html:
+    css: styles.css
+---
+
+## 🌍 Trip to Africa (August 2024)
+
+### Overview
+This trip was an unforgettable adventure spanning three weeks, exploring the diverse landscapes and wildlife of East Africa.
+The gallery below showcases the twenty-four most memorable sights.
+
+---
+
+### The Scrollable Gallery Strip (Part 1: Wildlife)
+
+Click on any small thumbnail to enlarge it in an overlay.
+
+::: {.horizontal-scroll}
+
+<a href="#" class="lightbox-trigger" data-img-src="photos/lion.jpg">![](photos/lion.jpg){width="200" loading="lazy"}</a><a href="#" class="lightbox-trigger" data-img-src="photos/lioness.jpg">![](photos/lioness.jpg){width="200" loading="lazy"}</a><a href="#" class="lightbox-trigger" data-img-src="photos/elephant.jpg">![](photos/elephant.jpg){width="200" loading="lazy"}</a><a href="#" class="lightbox-trigger" data-img-src="photos/wildebeest.jpg">![](photos/wildebeest.jpg){width="200" loading="lazy"}</a><a href="#" class="lightbox-trigger" data-img-src="photos/zebra_sunset.jpg">![](photos/zebra_sunset.jpg){width="200" loading="lazy"}</a><a href="#" class="lightbox-trigger" data-img-src="photos/bluebird.jpg">![](photos/bluebird.jpg){width="200" loading="lazy"}</a><a href="#" class="lightbox-trigger" data-img-src="photos/ostrich.jpg">![](photos/ostrich.jpg){width="200" loading="lazy"}</a><a href="#" class="lightbox-trigger" data-img-src="photos/hippos.jpg">![](photos/hippos.jpg){width="200" loading="lazy"}</a><a href="#" class="lightbox-trigger" data-img-src="photos/monkey.jpg">![](photos/monkey.jpg){width="200" loading="lazy"}</a>
+
+:::
+
+### The Scrollable Gallery Strip (Part 2: Landscapes)
+
+::: {.horizontal-scroll}
+
+<a href="#" class="lightbox-trigger" data-img-src="photos/baranco_terrain.jpg">![](photos/baranco_terrain.jpg){width="200" loading="lazy"}</a><a href="#" class="lightbox-trigger" data-img-src="photos/kili_shadow.jpg">![](photos/kili_shadow.jpg){width="200" loading="lazy"}</a><a href="#" class="lightbox-trigger" data-img-src="photos/glacier_sunrise.jpg">![](photos/glacier_sunrise.jpg){width="200" loading="lazy"}</a><a href="#" class="lightbox-trigger" data-img-src="photos/kili_landscape.jpg">![](photos/kili_landscape.jpg){width="200" loading="lazy"}</a>
+:::
+
+<div id="lightbox-overlay">
+    <img id="lightbox-modal" src="" alt="Enlarged Photo">
+</div>
+
+---
+
+## 💻 Combined JavaScript for Scrolling and Lightbox
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    // --- 1. HORIZONTAL SCROLL FUNCTIONALITY ---
+    const scrollers = document.querySelectorAll('.horizontal-scroll');
+
+    scrollers.forEach(scroller => {
+        scroller.addEventListener('wheel', (event) => {
+            if (event.deltaY !== 0) {
+                event.preventDefault(); 
+                scroller.scrollLeft += event.deltaY;
+            }
+        });
+    });
+
+    // --- 2. CUSTOM LIGHTBOX (OVERLAY) FUNCTIONALITY ---
+    
+    // Look up elements once the DOM is loaded
+    const overlay = document.getElementById('lightbox-overlay');
+    const modalImage = document.getElementById('lightbox-modal');
+    const triggers = document.querySelectorAll('.lightbox-trigger');
+
+    // CRUCIAL FIX: Only proceed with lightbox listeners if the elements were found
+    if (overlay && modalImage) {
+        
+        // Open Lightbox
+        triggers.forEach(trigger => {
+            trigger.addEventListener('click', (event) => {
+                event.preventDefault(); 
+                const imgSrc = trigger.getAttribute('data-img-src');
+                
+                modalImage.src = imgSrc; 
+                overlay.style.display = 'flex'; 
+            });
+        });
+
+        // Close Lightbox (when clicking on the overlay background)
+        overlay.addEventListener('click', (event) => {
+            if (event.target === overlay) {
+                overlay.style.display = 'none';
+                modalImage.src = ''; 
+            }
+        });
+
+        // Close Lightbox (when pressing ESC key)
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'Escape') {
+                overlay.style.display = 'none';
+                modalImage.src = '';
+            }
+        });
+    }
+});
+</script>
