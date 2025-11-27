@@ -6,9 +6,7 @@ format:
     css: styles.css
 ---
 
-## 🌍 Tanzania (2025)
-
-------------------------------------------------------------------------
+## Tanzania (2025)
 
 ::: horizontal-scroll
 <a href="#" class="lightbox-trigger" data-img-src="photos/lion.jpg">![](photos/lion.jpg){width="200" loading="lazy"}</a><a href="#" class="lightbox-trigger" data-img-src="photos/lioness.jpg">![](photos/lioness.jpg){width="200" loading="lazy"}</a><a href="#" class="lightbox-trigger" data-img-src="photos/elephant.jpg">![](photos/elephant.jpg){width="200" loading="lazy"}</a><a href="#" class="lightbox-trigger" data-img-src="photos/wildebeest.jpg">![](photos/wildebeest.jpg){width="200" loading="lazy"}</a><a href="#" class="lightbox-trigger" data-img-src="photos/zebra_sunset.jpg">![](photos/zebra_sunset.jpg){width="200" loading="lazy"}</a><a href="#" class="lightbox-trigger" data-img-src="photos/bluebird.jpg">![](photos/bluebird.jpg){width="200" loading="lazy"}</a><a href="#" class="lightbox-trigger" data-img-src="photos/ostrich.jpg">![](photos/ostrich.jpg){width="200" loading="lazy"}</a><a href="#" class="lightbox-trigger" data-img-src="photos/hippos.jpg">![](photos/hippos.jpg){width="200" loading="lazy"}</a><a href="#" class="lightbox-trigger" data-img-src="photos/monkey.jpg">![](photos/monkey.jpg){width="200" loading="lazy"}</a><a href="#" class="lightbox-trigger" data-img-src="photos/lobelia.jpg">![](photos/lobelia.jpg){width="200" loading="lazy"}</a><a href="#" class="lightbox-trigger" data-img-src="photos/giraffes.jpg">![](photos/giraffes.jpg){width="200" loading="lazy"}</a><a href="#" class="lightbox-trigger" data-img-src="photos/wilde_cross.jpg">![](photos/wilde_cross.jpg){width="200" loading="lazy"}</a><a href="#" class="lightbox-trigger" data-img-src="photos/bird.jpg">![](photos/bird.jpg){width="200" loading="lazy"}</a><a href="#" class="lightbox-trigger" data-img-src="photos/blue_chicken.jpg">![](photos/blue_chicken.jpg){width="200" loading="lazy"}</a><a href="#" class="lightbox-trigger" data-img-src="photos/butterfly.jpg">![](photos/butterfly.jpg){width="200" loading="lazy"}</a><a href="#" class="lightbox-trigger" data-img-src="photos/hyena.jpg">![](photos/hyena.jpg){width="200" loading="lazy"}</a><a href="#" class="lightbox-trigger" data-img-src="photos/senecio.jpg">![](photos/senecio.jpg){width="200" loading="lazy"}</a><a href="#" class="lightbox-trigger" data-img-src="photos/skull.jpg">![](photos/skull.jpg){width="200" loading="lazy"}</a><a href="#" class="lightbox-trigger" data-img-src="photos/yellowbird.jpg">![](photos/yellowbird.jpg){width="200" loading="lazy"}</a><a href="#" class="lightbox-trigger" data-img-src="photos/zebra.jpg">![](photos/zebra.jpg){width="200" loading="lazy"}</a>
@@ -17,6 +15,23 @@ format:
 ::: horizontal-scroll
 <a href="#" class="lightbox-trigger" data-img-src="photos/welcome.jpg">![](photos/welcome.jpg){width="200" loading="lazy"}</a><a href="#" class="lightbox-trigger" data-img-src="photos/baranco_terrain.jpg">![](photos/baranco_terrain.jpg){width="200" loading="lazy"}</a><a href="#" class="lightbox-trigger" data-img-src="photos/kili_shadow.jpg">![](photos/kili_shadow.jpg){width="200" loading="lazy"}</a><a href="#" class="lightbox-trigger" data-img-src="photos/glacier_sunrise.jpg">![](photos/glacier_sunrise.jpg){width="200" loading="lazy"}</a><a href="#" class="lightbox-trigger" data-img-src="photos/kili_landscape.jpg">![](photos/kili_landscape.jpg){width="200" loading="lazy"}</a><a href="#" class="lightbox-trigger" data-img-src="photos/basecamp.jpg">![](photos/basecamp.jpg){width="200" loading="lazy"}</a><a href="#" class="lightbox-trigger" data-img-src="photos/frosted.jpg">![](photos/frosted.jpg){width="200" loading="lazy"}</a><a href="#" class="lightbox-trigger" data-img-src="photos/mountain_night.jpg">![](photos/mountain_night.jpg){width="200" loading="lazy"}</a><a href="#" class="lightbox-trigger" data-img-src="photos/night_vertical.jpg">![](photos/night_vertical.jpg){width="200" loading="lazy"}</a><a href="#" class="lightbox-trigger" data-img-src="photos/river.jpg">![](photos/river.jpg){width="200" loading="lazy"}</a><a href="#" class="lightbox-trigger" data-img-src="photos/summit_shadow.jpg">![](photos/summit_shadow.jpg){width="200" loading="lazy"}</a><a href="#" class="lightbox-trigger" data-img-src="photos/mawenzi.jpg">![](photos/mawenzi.jpg){width="200" loading="lazy"}</a><a href="#" class="lightbox-trigger" data-img-src="photos/lantern.jpg">![](photos/lantern.jpg){width="200" loading="lazy"}</a><a href="#" class="lightbox-trigger" data-img-src="photos/kenya_mountain.jpg">![](photos/kenya_mountain.jpg){width="200" loading="lazy"}</a><a href="#" class="lightbox-trigger" data-img-src="photos/bathroom.jpg">![](photos/bathroom.jpg){width="200" loading="lazy"}</a><a href="#" class="lightbox-trigger" data-img-src="photos/forest_night.jpg">![](photos/forest_night.jpg){width="200" loading="lazy"}</a>
 :::
+
+## Joshua Tree (2025)
+
+tbd
+
+## Austin Solar Eclipse (2024)
+
+tbd
+
+## Norway (2023)
+
+tbd
+
+## Yosmite Valley - Cloud's Rest (2023)
+
+tbd
+
 
 ::: {#lightbox-overlay}
 ```         

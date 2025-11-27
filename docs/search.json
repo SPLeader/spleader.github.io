@@ -1,17 +1,31 @@
 [
   {
-    "objectID": "travel_photos.html",
-    "href": "travel_photos.html",
+    "objectID": "travel_photos.html#joshua-tree-2025",
+    "href": "travel_photos.html#joshua-tree-2025",
     "title": "Gallery",
-    "section": "",
-    "text": "&lt;img id=\"lightbox-modal\" src=\"\" alt=\"Enlarged Photo\"&gt;"
+    "section": "Joshua Tree (2025)",
+    "text": "Joshua Tree (2025)\ntbd"
   },
   {
-    "objectID": "travel_photos.html#tanzania-2025",
-    "href": "travel_photos.html#tanzania-2025",
+    "objectID": "travel_photos.html#austin-solar-eclipse-2024",
+    "href": "travel_photos.html#austin-solar-eclipse-2024",
     "title": "Gallery",
-    "section": "",
-    "text": "&lt;img id=\"lightbox-modal\" src=\"\" alt=\"Enlarged Photo\"&gt;"
+    "section": "Austin Solar Eclipse (2024)",
+    "text": "Austin Solar Eclipse (2024)\ntbd"
+  },
+  {
+    "objectID": "travel_photos.html#norway-2023",
+    "href": "travel_photos.html#norway-2023",
+    "title": "Gallery",
+    "section": "Norway (2023)",
+    "text": "Norway (2023)\ntbd"
+  },
+  {
+    "objectID": "travel_photos.html#yosmite-valley---clouds-rest-2023",
+    "href": "travel_photos.html#yosmite-valley---clouds-rest-2023",
+    "title": "Gallery",
+    "section": "Yosmite Valley - Cloud’s Rest (2023)",
+    "text": "Yosmite Valley - Cloud’s Rest (2023)\ntbd\n\n&lt;img id=\"lightbox-modal\" src=\"\" alt=\"Enlarged Photo\"&gt;"
   },
   {
     "objectID": "projects.html",
