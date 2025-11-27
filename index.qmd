@@ -148,7 +148,6 @@ toc: false
   .experience-item {
     display: grid;
     grid-template-columns: 1fr auto;
-    margin-bottom: 8px;
     align-items: baseline;
   }
 
@@ -156,6 +155,7 @@ toc: false
     font-weight: 700;
     font-size: 1.1rem;
     color: #2c3e50;
+    margin-bottom: 0px;
   }
 
   .job-date {
@@ -167,7 +167,7 @@ toc: false
   .job-company {
     display: block;
     color: #666;
-    margin-bottom: 10px; /* Spacing between jobs */
+    margin-bottom: 15px; /* Spacing between jobs */
   }
 
   .job-company a {

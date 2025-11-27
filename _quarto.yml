@@ -13,6 +13,7 @@ website:
       - projects.qmd
       - blog.qmd
       - resume.qmd
+      - travel_photos.qmd
 
 format:
   html:

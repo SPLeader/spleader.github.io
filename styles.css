@@ -7,7 +7,7 @@
   overflow-x: auto;
   overflow-y: hidden; 
   padding: 10px 0;
-  height: 250px; 
+  height: 450px; 
   /*scroll-behavior: smooth;   */
   
   /* CRUCIAL FIX 1: Scrollbar Hiding (IE/Edge/Firefox) */
@@ -24,14 +24,14 @@
 */
 .lightbox-trigger {
   display: inline-block; /* Allows width/height to be set and flow horizontally */
-  height: 200px; /* Forces the link to match the image height */
+  height: 400px; /* Forces the link to match the image height */
   margin-right: 10px; /* Adds space between photos */
   text-decoration: none; /* Optional: ensures no blue link underline */
 }
 
 /* Styles the image inside the link */
 .horizontal-scroll img {
-  height: 200px; 
+  height: 400px; 
   width: auto; 
   margin-right: 0; /* Removed margin here, as it's now on the parent link */
   display: block; /* Makes the image take up all space in the link */
