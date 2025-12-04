@@ -16,7 +16,7 @@ In late May/early June of 2023, I attended [the United States Conference Of Teac
 
 On day one, I helped facilitate a workshop run by three Cal Poly professors: [Dr. Glanz](https://statistics.calpoly.edu/hunter-glanz), [Dr. Theobold](https://statistics.calpoly.edu/allison-theobold), and [Dr. Robinson](https://statistics.calpoly.edu/Emily-Robinson) by live testing questions from participants and assisting with participants' issues as they arose.
 
-![From left to right: Emily Robinson, Allison Theobold, Sean Leader, Hunter Glanz](project_files/QuartoWorkshop.jpg)
+![From left to right: Emily Robinson, Allison Theobold, Sean Leader, Hunter Glanz](photos/blog/uscots/QuartoWorkshop.jpg)
 
 The workshop covered [Quarto](https://quarto.org), a versatile tool that allows users to create reproducible documents that integrate both code and text together. As a matter of fact, my website is built entirely in Quarto. We focused on using Quarto as a classroom resource - not only as a way for professors to create course materials such as presentations or websites, but also as a way for students to create reproducible documents for class assignments.
 
@@ -63,7 +63,7 @@ During poster talks, dozens of participants presented their novel research on co
 
 This was the first conference I have ever attended. Although I would say I experienced a bit of information overload, I would not trade the experience for anything. I met many wonderful individuals and was welcomed with open arms to the statistics education community. I especially appreciated that although 99% (forgive my lackadaisical estimation) of attendees either had or were pursuing their PhDs, I was treated as an equal. Thank you to the organizers, presenters, sponsors, and attendees for providing me with a truly unforgettable experience.
 
-![A picture of myself, Dr. Beth Chance, and the three other undergraduates who attended USCOTS 2023](project_files/uscots_students.JPG)
+![A picture of myself, Dr. Beth Chance, and the three other undergraduates who attended USCOTS 2023](photos/blog/uscots/uscots_students.JPG)
 
 ## ISI-BUDS
 
@@ -106,11 +106,11 @@ Throughout this project, we learned a new paradigm for doing research that chall
 
 Our primary mentor for our research project was Dan Gillen, the head of the Statistics department at UC Irvine. We also worked with Josh Grill, Ira Lott, and Eric Doran for expertise in the Alzheimer's Disease and Down Syndrome communities. I cannot begin to stress how impactful Dan Gillen's mentorship was on my statistical thinking over the course of the program. Although I have a solid foundation in the principles of statistics, Dr. Gillen challenged me to think about things in a new light and provided invaluable guidance throughout our research project. Also, a special thank-you to Thuy Lu, our PhD student advisor, who assisted us at every turn and helped streamline the learning and research process.
 
-![A photo of various mathematical equations used in our research project](project_files/isibuds_math.jpg)
+![A photo of various mathematical equations used in our research project](photos/blog/isibuds/isibuds_math.jpg)
 
 Our research project culminated in a presentation and research paper. The presentation allowed us to communicate our findings and practice our statistical communication skills with active members of the statistics community, which is a unique audience I don't often have the chance to engage with. All of the presentations given by the other groups were insightful and meaningful, ranging from research on colorectal cancer to managing HIV for women in India.
 
-![A picture of my research group after our final presentation](project_files/isibuds_project.jpg)
+![A picture of my research group after our final presentation](photos/blog/isibuds/isibuds_project.jpg)
 
 [Our research paper was published in Alzheimer's & Dementia: Translational Research & Clinical Interventions!](https://doi.org/10.1002/trc2.12478)
 
@@ -120,7 +120,7 @@ In addition to the rigorous and rewarding academic program we were participating
 
 The coordinators of ISI-BUDS were also generous enough to plan a few expeditions for us on a few of the weekends, where we went kayaking and whale watching! These events brought our cohort closer together and bolstered our collaboration with one another throughout the program.
 
-![A picture of myself and many of the other students at Laguna Beach](project_files/isibuds_beach.jpg)
+![A picture of myself and many of the other students at Laguna Beach](photos/blog/isibuds/isibuds_beach.jpg)
 
 ### Conclusion
 
@@ -128,9 +128,16 @@ Overall, ISI-BUDS was a fantastic program that further developed my technical sk
 
 ## PhD - Year 1
 
+![](photos/blog/phd_year_1/anteater_pavilion.jpg)
+
 ### Fall
 
 I began my journey at UC Irvine in September of 2024, ready to formalize my understanding of statistics and expand the boundaries of my knowledge. During this time, I worked with my advisor to submit an application for the NSF GRFP, proposing to work on an ongoing survival analysis project with applications to Alzheimer's Disease. Ultimately, we were not funded, but writing the grant proposal was essential practice, and it helped me review the literature in this research area.
+
+::: {.img-float-left}
+![Snail on a rail](photos/blog/phd_year_1/snail.jpg)
+:::
+
 
 During the Fall term, I completed the first two classes of two parallel class sequences: one focusing on mathematical theory and the other emphasizing modeling and application. The theory class reviewed probability, common probability distributions, univariate and bivariate variable transformations, moment-generating functions, weak convergence, the law of total expectation/variance, order statistics, and Poisson processes. The applied class, on the other hand, detailed the basic linear model through matrix representation, decomposition of the variance, individual t-tests, full and partial F-tests, interpretations of parameters, and model selection.
 
@@ -142,6 +149,10 @@ By the end of the term, I had overcome great setbacks (that first theory midterm
 
 In January, I returned to Irvine after the holiday season with a revived impetus to understand the upcoming material, notably because my advisor was teaching the theory class. It was time to make, or break.
 
+::: {.img-float-right}
+![Black Phoebe](photos/blog/phd_year_1/black_phoebe.jpg)
+:::
+
 The theory class in Winter expanded upon ideas from Fall, introducing more types of convergence and related theorems, asymptotic distributions, point estimation via Method of Moments Estimators (MMEs) and Maximum Likelihood Estimators (MLEs), Uniformly Minimum-Variance Unbiased Estimators (UMVUEs), and hypothesis testing. The applied class generalized concepts from the basic linear models class, introducing the theory and application of Generalized Linear Models (GLMs) and some survival analysis models. Additionally, I enrolled in a computational statistics class covering matrix decomposition methods, importance sampling, Markov Chain Monte Carlo (MCMC), and hidden Markov models.
 
 Seeing the mathematical foundations and their applications to complex statistical problems helped me to better understand the motivation and limitations of statistical methods. As my studies in the history of statistics continue, my appreciation for the development of new methodologies over time and their underlying assumptions grow.
@@ -150,13 +161,20 @@ Seeing the mathematical foundations and their applications to complex statistica
 
 In April, five friends from my cohort and I began planning our 3-month study plan to tackle the qualifying exams. We decided that, each and every week up until the exam, we would collaboratively complete one exam from a previous year. This divide-and-conquer strategy allowed us to cover more problems than any of us would have been able to complete individually, making our study time more efficient. In addition to studying regularly for the upcoming exam, I was enrolled in three more classes meant to round out my knowledge base of statistics.
 
-The first of my three classes was on infectious diseases, exploring infectious disease modeling through SIR models, Markov chains, Ordinary Differential Equation (ODE) models, branching processes, and importance sampling.  The theory class in the Spring term returned to linear models, where we worked heavily with proofs related to estimability, Best Linear Unbiased Estimators (BLUE)), Gauss-Markov theory, Iteratively Reweighted Least Squares (IRLS), quadratic forms, and asymptotic distributions. The applied class extended and formalized ideas from generalized linear models to correlated data through the usage of Generalized Linear Mixed Models (GLMMs) and Generalized Estimating Equations (GEEs), with a heavy reliance upon estimating equation theory.
+::: {.img-float-left}
+![Floral Sunset](photos/blog/phd_year_1/building_sunset.jpg)
+:::
+
+The first of my three classes was on infectious diseases, exploring infectious disease modeling through SIR models, Markov chains, Ordinary Differential Equation (ODE) models, branching processes, and importance sampling. The theory class in the Spring term returned to linear models, where we worked heavily with proofs related to estimability, Best Linear Unbiased Estimators (BLUE)), Gauss-Markov theory, Iteratively Reweighted Least Squares (IRLS), quadratic forms, and asymptotic distributions. The applied class extended and formalized ideas from generalized linear models to correlated data through the usage of Generalized Linear Mixed Models (GLMMs) and Generalized Estimating Equations (GEEs), with a heavy reliance upon estimating equation theory.
 
 I'm not sure if it was the difficulty of the classes, my focus on the impending qualifying exam, or that it was my first exposure to many of these ideas, but I found content from this term harder to grasp than that from previous terms. At any rate, I look forward to revisiting the concepts to learn them better.
 
 ### Qualifying Exams
 
 The qualifying exams for the UC Irvine statistics department can be broken down into two parts: The Theory Exam & The Data Analysis. Given my applied background from my time at Cal Poly, I believed that I would perform better on the data analysis and worse on the theory. After mentally preparing for almost a year and physically preparing for almost 3 months, I felt reasonably confident going into the exam -- hoping but not expecting to pass both.
+
+
+![Example Theory Exam Question](photos/blog/phd_year_1/ex_qual.png)
 
 Mid-way through the theory exam on test-day, I was panicked but not drowning. I was drawing a blank on a very important question that I expected to be able to answer, forcing me to work on a question I wasn't sure I knew how to answer. In the last 20 minutes of the three hour time slot I eeked out several breakthroughs on a few questions, earning myself a smooth pass on the theory exam (though I didn't find out my results until weeks later). After turning in our theory exams, we were given a project specification for the data analysis and a week to complete it.
 

@@ -42,3 +42,17 @@
 .horizontal-scroll img:hover {
   transform: scale(1.05); 
 }
+
+.img-float-left {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  max-width: 40%; /* Control the size of the floated image */
+}
+
+.img-float-right {
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  max-width: 40%;
+}
