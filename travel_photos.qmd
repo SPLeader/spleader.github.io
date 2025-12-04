@@ -16,41 +16,33 @@ format:
 <a href="#">![](photos/tanzania/river.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/tanzania/monkey.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/tanzania/lioness.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/tanzania/zebra_sunset.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/tanzania/wildebeest.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/tanzania/bluebird.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/tanzania/lantern.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/tanzania/lion.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/tanzania/elephant.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/tanzania/ostrich.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/tanzania/hippos.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/tanzania/lobelia.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/tanzania/giraffes.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/tanzania/wilde_cross.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/tanzania/bird.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/tanzania/blue_chicken.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/tanzania/butterfly.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/tanzania/hyena.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/tanzania/senecio.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/tanzania/skull.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/tanzania/yellowbird.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/tanzania/zebra.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/tanzania/kenya_mountain.jpg){width="200" loading="lazy"}</a>
 :::
 
-
-
 ## Joshua Tree (2025)
 
 ::: horizontal-scroll
-
 <a href="#">![](photos/joshua_tree/rocks_building.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/joshua_tree/tortoise.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/joshua_tree/rock_mine.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/joshua_tree/joshua_stars.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/joshua_tree/rock_triangle.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/joshua_tree/building_closeup.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/joshua_tree/campsite_stars.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/joshua_tree/crow_bros.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/joshua_tree/fire.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/joshua_tree/joshua_sunset.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/joshua_tree/landscape_orange.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/joshua_tree/road_sunset.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/joshua_tree/rock_climber.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/joshua_tree/rock_dyke.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/joshua_tree/rock_feature.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/joshua_tree/rock_shapes.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/joshua_tree/rock_slabs.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/joshua_tree/rocky_hills.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/joshua_tree/skull_rock.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/joshua_tree/tall_tree.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/joshua_tree/yucca_mountain.jpg){width="200" loading="lazy"}</a>
-
 :::
 
 ## Austin Solar Eclipse (2024)
 
 ::: horizontal-scroll
-
 <a href="#">![](photos/austin_eclipse/eclipse_nakedeye.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/austin_eclipse/blue_flower.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/austin_eclipse/sun.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/austin_eclipse/house_flowers.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/austin_eclipse/eclipse_begin.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/austin_eclipse/flower_field.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/austin_eclipse/eclipse_midway.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/austin_eclipse/paw_track.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/austin_eclipse/webs.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/austin_eclipse/flowers.jpg){width="200" loading="lazy"}</a>
-
 :::
 
 ## Norway (2023)
 
 ::: horizontal-scroll
-
 <a href="#">![](photos/norway/tall_wall.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/norway/cruise_sunset.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/norway/cairns.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/norway/slug.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/norway/glacier.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/norway/wall_trees.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/norway/valley.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/norway/painted_door.jpg){width="200" loading="lazy"}</a>
-
 :::
 
 ## Yosmite Valley - Cloud's Rest (2023)
 
 ::: horizontal-scroll
-
 <a href="#">![](photos/clouds_rest/hidden_sunrise.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/clouds_rest/sunrise_wall.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/clouds_rest/half_dome.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/clouds_rest/red_thing.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/clouds_rest/chipmunk.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/clouds_rest/half_dome_el_cap.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/clouds_rest/yosemite_valley.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/clouds_rest/mountains.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/clouds_rest/sunset.jpg){width="200" loading="lazy"}</a>
-
 :::
 
 ------------------------------------------------------------------------
+
+\`\`\`{=html}
 
 ```{=html}
 <script>
@@ -69,3 +61,4 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 </script>
+```
