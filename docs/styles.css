@@ -19,17 +19,17 @@
   display: none;
 }
 
-/* CRUCIAL FIX: Styles the anchor tag (the link) to match the image dimensions 
-   and handles the spacing between photos.
+/* FIXED: Changed the selector from .lightbox-trigger 
+   to target the anchor tag (a) inside the horizontal-scroll container.
 */
-.lightbox-trigger {
+.horizontal-scroll a {
   display: inline-block; /* Allows width/height to be set and flow horizontally */
   height: 400px; /* Forces the link to match the image height */
   margin-right: 10px; /* Adds space between photos */
   text-decoration: none; /* Optional: ensures no blue link underline */
 }
 
-/* Styles the image inside the link */
+/* Styles the image inside the link (no change needed here) */
 .horizontal-scroll img {
   height: 400px; 
   width: auto; 
@@ -41,33 +41,4 @@
 
 .horizontal-scroll img:hover {
   transform: scale(1.05); 
-}
-
-
-/* --- CUSTOM LIGHTBOX STYLES --- */
-
-/* The Overlay: Full screen, grey background, hidden by default */
-#lightbox-overlay {
-    display: none; 
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.9); 
-    z-index: 1000;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-}
-
-/* The Image Container within the overlay */
-#lightbox-modal {
-    max-width: 90%;
-    max-height: 90vh;
-    display: block;
-    margin: auto;
-    border: 3px solid white;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    cursor: default; 
 }
