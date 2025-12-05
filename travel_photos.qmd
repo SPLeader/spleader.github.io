@@ -34,7 +34,7 @@ format:
 <a href="#">![](photos/norway/tall_wall.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/norway/cruise_sunset.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/norway/cairns.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/norway/slug.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/norway/glacier.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/norway/wall_trees.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/norway/valley.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/norway/painted_door.jpg){width="200" loading="lazy"}</a>
 :::
 
-## Yosmite Valley - Cloud's Rest (2023)
+## Yosemite Valley - Cloud's Rest (2023)
 
 ::: horizontal-scroll
 <a href="#">![](photos/clouds_rest/hidden_sunrise.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/clouds_rest/sunrise_wall.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/clouds_rest/half_dome.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/clouds_rest/red_thing.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/clouds_rest/chipmunk.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/clouds_rest/half_dome_el_cap.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/clouds_rest/yosemite_valley.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/clouds_rest/mountains.jpg){width="200" loading="lazy"}</a><a href="#">![](photos/clouds_rest/sunset.jpg){width="200" loading="lazy"}</a>
