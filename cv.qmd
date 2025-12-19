@@ -1,0 +1,7 @@
+---
+title: "Curriculum Vitae"
+---
+
+```{=html}
+<iframe width="100%" height="700" src="project_files/12_18_2025 Updated CV.pdf" title="Sean Leader's Curriculum Vitae"></iframe>
+```

@@ -12,7 +12,7 @@ website:
         text: Home
       - projects.qmd
       - blog.qmd
-      - resume.qmd
+      - cv.qmd
       - travel_photos.qmd
 
 format:
