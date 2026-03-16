@@ -177,7 +177,7 @@ By April, the focus shifted entirely toward the finish line. Five friends from m
 
 Even with the exams approaching, my coursework remained steady. I took a fascinating course on infectious diseases, using SIR models, Markov chains, Ordinary Differential Equation (ODE) models, branching processes, and importance sampling. Our theory class returned to linear models, where we worked heavily with proofs related to estimability, Best Linear Unbiased Estimators (BLUE), Gauss-Markov theory, Iteratively Reweighted Least Squares (IRLS), quadratic forms, and asymptotic distributions. The applied class extended and formalized ideas from generalized linear models to correlated data through the usage of Generalized Linear Mixed Models (GLMMs) and Generalized Estimating Equations (GEEs), with a heavy emphasis on the theory.
 
-Admittedly, this term was a struggle. Between the complexity of the material and the looming anxiety of the qualfying exams, I found the concepts harder to grasp than the previous months. It was a humbling reminder that learning is rarely a linear path.
+Admittedly, this term was a struggle. Between the complexity of the material and the looming anxiety of the qualifying exams, I found the concepts harder to grasp than the previous months. It was a humbling reminder that learning is rarely a linear path.
 
 
 ### Qualifying Exams
@@ -187,10 +187,10 @@ The UC Irvine statistics qualifying exams are a two-part assessment: a Theory Ex
 ![Example Theory Exam Question](photos/blog/phd_year_1/ex_qual.png)
 
 
-**The Theory Exam:** Mid-way through the three-hour exam session, I hit a wall of panic. I drew a complete blank on a foundational question I *knew* I should be able to answer. I was forced to pivot to a problem I felt less certain about. However, in the final twenty minutes, I found several breakthroughs. After submitting the theory examination, we were given a projection specification for the data analysis. 
+**The Theory Exam:** Mid-way through the three-hour exam session, I hit a wall of panic. I drew a complete blank on a foundational question I *knew* I should be able to answer. I was forced to pivot to a problem I felt less certain about. However, in the final twenty minutes, I found several breakthroughs. After submitting the theory examination, we were given a project specification for the data analysis. 
 
-**The Data Analysis: ** We were given a week to analyze a dataset regarding wearable device interventions. My analysis used several methods, including a Poisson GLM, a GEE, a cross-validated LASSO regression, and a LME. My first submission was mostly sufficient, but it missed a few scientific nuances. After receiving specific feedback on sections of my report, I addressed the limited issues and resubmitted. 
+**The Data Analysis: ** We were given a week to analyze a dataset regarding wearable device (e.g. Apple Watch) fitness interventions. My analysis used several methods, including a Poisson GLM, a GEE, a cross-validated LASSO regression, and a LME. My first submission was mostly sufficient, but it missed a few scientific nuances. After receiving specific feedback on sections of my report, I addressed the limited issues and resubmitted. 
 
 
-After the great deal of effort I expended in pursuit of conquering these exams, I was able to earn a pass on both the theory and data analysis. These exams were more than just a hurdle for me; they were a bridge. They allowed me to take a year's worth of abstract theory and apply it to demonstrate my understanding of the basis of statistics. More importantly, they marked an infelection point in my career. I am no longer just a student abosrbing information; I am transitioning into a researcher capable of investigating new ideas. The first year went by in a blink, just four more to go!
+After the great deal of effort, I was able to earn a pass on both the theory and data analysis. These exams were more than just a hurdle for me; they were a bridge. They allowed me to take a year's worth of abstract theory and apply it to demonstrate my understanding of the basis of statistics. More importantly, they marked an inflection point in my career. I am no longer just a student absorbing information; I am transitioning into a researcher capable of investigating new ideas. The first year went by in a blink, just four more to go!
 ::::::
