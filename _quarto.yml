@@ -10,9 +10,10 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - projects.qmd
+      - tutoring.qmd
       - blog.qmd
       - cv.qmd
+      - projects.qmd
       - travel_photos.qmd
 
 format:
