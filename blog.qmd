@@ -28,9 +28,9 @@ On day two, I attended two workshops, each of which focused on improving student
 
 This workshop provided a handful of games meant to teach statistical concepts through the lens of games that engage students in the learning process. We played two games.
 
--   A crop-growing game that teaches students about random variation, blocking, and linear modelling.
+- A crop-growing game that teaches students about random variation, blocking, and linear modelling.
 
--   A racing game that teaches students about outliers, paired data, and confounding.
+- A racing game that teaches students about outliers, paired data, and confounding.
 
 If you're interesting in exploring any of these games, please check out their resources here: <https://www.stat2games.sites.grinnell.edu>
 
@@ -50,10 +50,10 @@ In keynote presentations at USCOTS 2023, one speaker presented to the entirety o
 
 Breakout sessions were short, fast-paced dialogues between presenters and attendees. During a given time slot, there were about 10 different breakout sessions one could attend based on their interests. Here are a few highlight sessions I attended:
 
--   Data Science as a general education course
-    -   In this session hosted by Hunter Glanz, we conversed about data science as a terminal (not meant to lead into another course) general education course, where we discussed how to introduce topics about data science to a general audience. Given that data science is a complex and nuanced subject often taught after prerequisite courses, it is not obvious which topics deserve coverage in terminal course that may be taught to anyone, STEM or non-STEM. Dr. Glanz will be releasing a book by the name 'Data For All' (which I will contribute to during my graduate studies!) that is meant to do exactly this, so be on the lookout!
--   What makes a compelling visualization?
-    -   This meeting hosted by Beth Chance and Emily Robinson discussed how to create informative and communicative visualizations, touching on both what *to* do as well as what *not* to do. This session sparked a great dialogue which gave me further insight on how to make compelling visuals at both an introductory and advanced level.
+- Data Science as a general education course
+  - In this session hosted by Hunter Glanz, we conversed about data science as a terminal (not meant to lead into another course) general education course, where we discussed how to introduce topics about data science to a general audience. Given that data science is a complex and nuanced subject often taught after prerequisite courses, it is not obvious which topics deserve coverage in terminal course that may be taught to anyone, STEM or non-STEM. Dr. Glanz will be releasing a book by the name 'Data For All' (which I will contribute to during my graduate studies!) that is meant to do exactly this, so be on the lookout!
+- What makes a compelling visualization?
+  - This meeting hosted by Beth Chance and Emily Robinson discussed how to create informative and communicative visualizations, touching on both what *to* do as well as what *not* to do. This session sparked a great dialogue which gave me further insight on how to make compelling visuals at both an introductory and advanced level.
 
 #### Poster Talks
 
@@ -75,28 +75,28 @@ This was the first conference I have ever attended. Although I would say I exper
 
 The first three weeks of the program were dedicated to preparing us for the eventual project work through a combination of lectures and labs on a wide array of concepts. Much of the content was familiar to me, but I learned some new highly valuable skills that I wasn't anticipating. A non-exhaustive list of the content we covered is as follows:
 
--   Data Collection
-    -   Interplay between science and statistics
-    -   Study designs
--   Coding
-    -   R & Tidyverse
-        -   Reproducibility
-        -   Data Manipulation
-        -   Data Visualization
-    -   Monte Carlo
-        -   Integration
-        -   Methods for Inference
-        -   Importance Sampling
--   Theory
-    -   Probability Theory
-    -   Statistical distributions
--   Modeling
-    -   Generalized Linear Models
-    -   Mixed Effects Models
-    -   Covariates
-        -   Adjustments
-        -   Interpretations
-        -   Mathematical Implications
+- Data Collection
+  - Interplay between science and statistics
+  - Study designs
+- Coding
+  - R & Tidyverse
+    - Reproducibility
+    - Data Manipulation
+    - Data Visualization
+  - Monte Carlo
+    - Integration
+    - Methods for Inference
+    - Importance Sampling
+- Theory
+  - Probability Theory
+  - Statistical distributions
+- Modeling
+  - Generalized Linear Models
+  - Mixed Effects Models
+  - Covariates
+    - Adjustments
+    - Interpretations
+    - Mathematical Implications
 
 ### Alzheimer's Disease Project
 
@@ -142,7 +142,7 @@ In the classroom, I navigated two parallel sequences: one rooted in mathematical
 
 **The Theory Sequence:** A rigorous review of probability, asymptotic theory, and linear modelig and quadratic forms
 
-**The Applied Sequence:** An exploration of the basic linear model, an expansion to generalized linear models, and an introduction into generalized estimating equations. 
+**The Applied Sequence:** An exploration of the basic linear model, an expansion to generalized linear models, and an introduction into generalized estimating equations.
 
 In particular, the theory class reviewed probability, common probability distributions, univariate and bivariate variable transformations, moment-generating functions, weak convergence, the law of total expectation/variance, order statistics, and Poisson processes. The applied class, on the other hand, detailed the basic linear model through matrix representation, decomposition of the variance, individual t-tests, full and partial F-tests, interpretations of parameters, and model selection.
 
@@ -158,8 +158,6 @@ Returning to Irvine after the holidays, I felt a revived impetus to understand t
 ![Black Phoebe](photos/blog/phd_year_1/black_phoebe.jpg)
 :::
 
-
-
 The curriculum intensified in Winter as we expanded upon ideas from Fall, introducing more types of convergence and related theorems, asymptotic distributions, point estimation via Method of Moments Estimators (MMEs) and Maximum Likelihood Estimators (MLEs), Uniformly Minimum-Variance Unbiased Estimators (UMVUEs), and hypothesis testing. In the applied track, we generalized concepts from the basic linear models class, introducing the theory and application of Generalized Linear Models (GLMs) and survival analysis models. I also added a computational statistics class, teaching me about optimal matrix decomposition methods, importance sampling, Markov Chain Monte Carlo (MCMC), and hidden Markov models.
 
 Seeing these mathematical foundations applied to complex statistical problems helped me understand not just how these methods work, but why they were developed. As I delve deeper into the history of statistics, my appreciation for the underlying assumptions of these methodologies continues to grow.
@@ -168,29 +166,23 @@ Seeing these mathematical foundations applied to complex statistical problems he
 
 By April, the focus shifted entirely toward the finish line. Five friends from my cohort and I designed a three-month "divide-and-conquer" study plan. Every week, we collaboratively tackled a previous year’s qualifying exam. This allowed us to cover a much wider breadth of problems than any of us could have managed alone, turning the daunting task of review into a manageable, communal effort.
 
-
 ::: img-float-left
 ![Floral Sunset](photos/blog/phd_year_1/building_sunset.jpg)
 :::
-
-
 
 Even with the exams approaching, my coursework remained steady. I took a fascinating course on infectious diseases, using SIR models, Markov chains, Ordinary Differential Equation (ODE) models, branching processes, and importance sampling. Our theory class returned to linear models, where we worked heavily with proofs related to estimability, Best Linear Unbiased Estimators (BLUE), Gauss-Markov theory, Iteratively Reweighted Least Squares (IRLS), quadratic forms, and asymptotic distributions. The applied class extended and formalized ideas from generalized linear models to correlated data through the usage of Generalized Linear Mixed Models (GLMMs) and Generalized Estimating Equations (GEEs), with a heavy emphasis on the theory.
 
 Admittedly, this term was a struggle. Between the complexity of the material and the looming anxiety of the qualifying exams, I found the concepts harder to grasp than the previous months. It was a humbling reminder that learning is rarely a linear path.
 
-
 ### Qualifying Exams
 
-The UC Irvine statistics qualifying exams are a two-part assessment: a Theory Exam & a Data Analysis project. Given my applied background from my time at Cal Poly, I had split confidence; I felt prepared for the data, for wary of the theory. I was hoping, but not expecting, to pass both. 
+The UC Irvine statistics qualifying exams are a two-part assessment: a Theory Exam & a Data Analysis project. Given my applied background from my time at Cal Poly, I had split confidence; I felt prepared for the data, for wary of the theory. I was hoping, but not expecting, to pass both.
 
 ![Example Theory Exam Question](photos/blog/phd_year_1/ex_qual.png)
 
+**The Theory Exam:** Mid-way through the three-hour exam session, I hit a wall of panic. I drew a complete blank on a foundational question I *knew* I should be able to answer. I was forced to pivot to a problem I felt less certain about. However, in the final twenty minutes, I found several breakthroughs. After submitting the theory examination, we were given a project specification for the data analysis.
 
-**The Theory Exam:** Mid-way through the three-hour exam session, I hit a wall of panic. I drew a complete blank on a foundational question I *knew* I should be able to answer. I was forced to pivot to a problem I felt less certain about. However, in the final twenty minutes, I found several breakthroughs. After submitting the theory examination, we were given a project specification for the data analysis. 
-
-**The Data Analysis: ** We were given a week to analyze a dataset regarding wearable device (e.g. Apple Watch) fitness interventions. My analysis used several methods, including a Poisson GLM, a GEE, a cross-validated LASSO regression, and a LME. My first submission was mostly sufficient, but it missed a few scientific nuances. After receiving specific feedback on sections of my report, I addressed the limited issues and resubmitted. 
-
+**The Data Analysis:** We were given a week to analyze a dataset regarding wearable device (e.g. Apple Watch) fitness interventions. My analysis used several methods, including a Poisson GLM, a GEE, a cross-validated LASSO regression, and a LME. My first submission was mostly sufficient, but it missed a few scientific nuances. After receiving specific feedback on sections of my report, I addressed the limited issues and resubmitted.
 
 After the great deal of effort, I was able to earn a pass on both the theory and data analysis. These exams were more than just a hurdle for me; they were a bridge. They allowed me to take a year's worth of abstract theory and apply it to demonstrate my understanding of the basis of statistics. More importantly, they marked an inflection point in my career. I am no longer just a student absorbing information; I am transitioning into a researcher capable of investigating new ideas. The first year went by in a blink, just four more to go!
 ::::::
